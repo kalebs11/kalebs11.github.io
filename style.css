@@ -1,0 +1,139 @@
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(138, 0, 150);
+    padding: 12px;
+    font-family:Impact:'Courier New', Courier, monospace;
+}
+#all-contents {
+  max-width: 900px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(138, 0, 150);
+   margin: 5 auto;
+   margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex: 10;
+    margin: 5;
+}
+#nav-ul {
+    list-style-image: cross-fade();
+}
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+a {
+    text-decoration: color(from color srgb r g b);
+    color: #ffd001;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(138, 0, 150);
+    display: flex;
+}
+.sidebar {
+    margin-right: 10px;
+    padding: 10px;
+}
+.sidebar-img {
+    width: 200px;
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* portfolio styles */
+#interests {
+    border: 4dvh rgb(138, 0, 150) ridge;
+    padding: 8px;
+}
+h2, h3 {
+    margin: 3px;
+}
+  /* portfolio styles */
+  .content h1 {
+    color: rgb(255, 255, 255);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    color: rgb(138, 0, 150);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #000000;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #000000;
+}
+ website mobile responsive
+
+   /* responsive web design */
+   @media screen and (min-width: 120px) and (max-width: 1080px) {
+     main {
+       height: 100ch;
+       zoom: 1.5;
+       display: grid;
+     }
+
+     h1 {
+       font-size: 44px;
+     }
+
+     h2 {
+       font-size: 42px;
+     }
+
+     h3 {
+       font-size: 36px;
+     }
+
+     #all-contents {
+       height: 100ch;
+       margin: none;
+     }
+
+     a {
+       font-size: 42px;
+     }
+
+     .sidebar {
+       margin-right: 0px;
+       justify-content: center;
+       align-items: center;
+     }
+
+     .sidebar-img {
+       width: 100%;
+     }
+
+     p,
+     li {
+       font-size: 24px;
+     }
+
+     .content {
+       align-content: center;
+       justify-content: center;
+     }
+ }
